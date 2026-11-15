@@ -1,0 +1,11 @@
+# Bibelfeed
+
+> iPhone- und iPad-App: die Bibel als vertikaler Feed, ein Vers pro Wisch. Deutsch (Lutherbibel 1912) und Französisch (Louis Segond 1910), beide gemeinfrei. Vorlesen mit der Stimme des iPhones. Kein Konto, kein Server, keine KI, keine Datensammlung. Kostenlos mit Tageslimit, Bibelfeed Plus ohne Limit.
+
+## Seiten
+- [Start (DE)](https://bibelfeed.online/)
+- [Accueil (FR)](https://bibelfeed.online/fr/)
+- [Hilfe und Kontakt](https://bibelfeed.online/support/)
+- [Aide et contact](https://bibelfeed.online/fr/support/)
+- [Datenschutz](https://bibelfeed.online/datenschutz/)
+- [Confidentialité](https://bibelfeed.online/fr/confidentialite/)
