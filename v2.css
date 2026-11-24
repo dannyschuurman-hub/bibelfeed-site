@@ -4,3 +4,12 @@
 @media(max-width:480px){.v2-screen-grid{grid-template-columns:1fr;gap:45px}.v2-iphone{width:260px;max-width:calc(100% - 12px);border-radius:43px;padding:8px}.v2-iphone img{border-radius:33px}.v2-home h2{font-size:39px}.v2-topic-nav a{font-size:14px}}
 .topic-intro p{margin-bottom:28px}.article-text .v2-faq p{color:#e0d4e4}.article-text .v2-faq details{border-color:#b8a4eb66}.article-text .v2-faq summary{font-size:18px}.v2-related ul{padding-left:24px}.mag-card img{object-fit:cover}
 .v2-iphone .v2-island{position:absolute;top:15px;left:50%;transform:translateX(-50%);width:28%;height:3.4%;max-height:25px;border-radius:24px;background:#09090a;pointer-events:none}.v2-iphone .v2-island:after{content:"";position:absolute;width:7px;height:7px;border-radius:50%;right:7px;top:50%;transform:translateY(-50%);background:#16172a;box-shadow:inset 0 0 2px #3e3a5d}
+/* Designronde 24-11: leesbaarheid, geen inhoudswijziging */
+.eyebrow{font-size:13px}.edition{font-size:12px}.hero-intro>span{font-size:15px}
+cite{font-size:14px}.image-caption{font-size:13px}.save-status{font-size:14px!important}
+.save-main{font-size:15px}.closing-copy>p:not(.eyebrow){font-size:14px}
+.hearing-heading p:not(.eyebrow),.widget-copy p:not(.eyebrow),.ipad-copy p:not(.eyebrow),.privacy p:not(.eyebrow),.saving-copy>p:not(.eyebrow):not(.save-status){font-size:16px;line-height:1.55}
+.hero-intro{background:radial-gradient(ellipse closest-side at center,#211a3270 0%,#211a3238 60%,#211a3200 100%)}
+footer{font-size:13px;line-height:1.5;gap:10px 22px}footer a{padding:6px 0}
+@media(max-width:820px){.hero-intro{background:radial-gradient(ellipse closest-side at center,#211a3260 0%,#211a3230 60%,#211a3200 100%)}.eyebrow{font-size:12px;letter-spacing:.16em}.edition{font-size:11px}.hero-intro>span{font-size:14px}
+cite{font-size:13px}.image-caption{font-size:12px}.hearing-heading p:not(.eyebrow),.widget-copy p:not(.eyebrow),.ipad-copy p:not(.eyebrow),.privacy p:not(.eyebrow),.saving-copy>p:not(.eyebrow):not(.save-status){font-size:15px}.closing-copy>p:not(.eyebrow){font-size:13px}footer{font-size:12px;gap:8px 16px}}
