@@ -13,3 +13,48 @@ cite{font-size:14px}.image-caption{font-size:13px}.save-status{font-size:14px!im
 footer{font-size:13px;line-height:1.5;gap:10px 22px}footer a{padding:6px 0}
 @media(max-width:820px){.hero-intro{background:radial-gradient(ellipse closest-side at center,#211a3260 0%,#211a3230 60%,#211a3200 100%)}.eyebrow{font-size:12px;letter-spacing:.16em}.edition{font-size:11px}.hero-intro>span{font-size:14px}
 cite{font-size:13px}.image-caption{font-size:12px}.hearing-heading p:not(.eyebrow),.widget-copy p:not(.eyebrow),.ipad-copy p:not(.eyebrow),.privacy p:not(.eyebrow),.saving-copy>p:not(.eyebrow):not(.save-status){font-size:15px}.closing-copy>p:not(.eyebrow){font-size:13px}footer{font-size:12px;gap:8px 16px}}
+/* Ronde 2 (24-11): lege stroken dicht, onderste delen op scene-niveau */
+.widget{min-height:0;padding-block:clamp(96px,14vh,150px)}
+.saving{padding-block:clamp(96px,14vh,150px)}
+.ipad{padding-top:clamp(96px,13vh,140px)}
+.privacy{min-height:0;padding-block:clamp(120px,18vh,190px)}
+@media(min-width:821px){
+.privacy h2{font-size:clamp(56px,6.1vw,100px)}.privacy h2 br{display:none}.privacy h2 em{display:block}
+.saving h2{font-size:clamp(44px,4.5vw,66px)}.saving h2 br{display:none}.saving h2 em{display:block}}
+@media(max-width:820px){.ipad h2{font-size:clamp(38px,11.4vw,50px)}}
+/* onderste delen: banden in de kleuren van de scenes */
+.v2-home{padding:0;background:var(--paper)}
+.v2-home>section{max-width:none;margin:0;padding:clamp(96px,13vw,168px) max(26px,calc((100% - 1200px)/2))}
+.v2-home>section>*{max-width:1200px;margin-inline:0}
+.v2-home h2{font-size:clamp(40px,5.6vw,84px);line-height:1.04;max-width:14ch;margin-bottom:clamp(36px,5vw,64px)}
+.v2-home h2 em{font-style:italic;color:#745599}
+.v2-home .eyebrow{font-size:13px;color:#665276}
+.v2-how{background:#211a32;color:var(--paper)}
+.v2-how h2 em,.v2-how .eyebrow{color:var(--peach)}
+.v2-how ol{gap:clamp(32px,5vw,72px);padding-left:0}
+.v2-how li{padding-left:0}.v2-how li::marker{font:italic 34px var(--serif);color:var(--peach)}
+.v2-how h3{font-size:clamp(28px,2.6vw,38px);margin:12px 0 16px}
+.v2-how p{font-size:18px;color:#e3d9e8}
+.v2-gallery{background:#eee6e0}
+.v2-gallery .v2-screen-grid{gap:clamp(48px,6vw,88px) clamp(28px,4vw,64px)}
+.v2-iphone{width:min(100%,300px)}
+.v2-screen-grid figcaption{font-size:16px}
+.v2-explore{background:#b8a4eb}
+.v2-explore h2 em{color:#33214f}
+.v2-explore .v2-topic-nav a{background:var(--ink);color:var(--paper);border:0;border-radius:40px;min-height:54px;padding:12px 26px;font-size:17px}
+.v2-explore .v2-topic-nav a:hover{background:#33214f}
+.v2-explore p a{font-size:18px;font-weight:600}
+.v2-faq{background:var(--paper)}
+@media(min-width:1000px){.v2-faq{align-content:start;grid-auto-rows:min-content;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);column-gap:6vw;row-gap:0;align-items:start;max-width:none}
+.v2-faq>*{max-width:none;margin-inline:0}.v2-faq h2{position:sticky;top:120px;margin:0;grid-row:1 / span 10}.v2-faq details{grid-column:2}}
+.v2-faq summary{font-size:clamp(19px,1.6vw,22px);padding-block:26px}
+.v2-faq details p{font-size:18px}
+@media(max-width:820px){.v2-home>section{padding:84px 26px}
+.v2-how ol{gap:38px}.v2-home h2{font-size:42px}
+.v2-gallery .v2-screen-grid{display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:-26px;padding:6px 26px 18px;max-width:none}
+.v2-gallery .v2-screen-grid figure{flex:0 0 min(68vw,270px);scroll-snap-align:center}
+.v2-explore .v2-topic-nav a{font-size:16px}}
+@media(max-width:820px){.widget,.saving{padding-block:84px 96px}.privacy{padding-block:100px}.widget h2{font-size:44px}}
+@media(min-width:821px){.widget h2{font-size:clamp(40px,4.3vw,64px)}.widget h2 br{display:none}.widget h2 em{display:block}.widget h2 em br{display:block}}
+.v2-how ol{padding-left:64px}
+@media(max-width:820px){.v2-how ol{padding-left:62px}}
