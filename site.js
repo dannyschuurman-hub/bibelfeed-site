@@ -81,7 +81,7 @@
   }
   $('.saved-stack').classList.toggle('saved',saved);
   $$('.save, .save-main').forEach(b=>b.setAttribute('aria-pressed',String(saved)));
-  $('.save-status').textContent=saved?message('Mit dem Herz gespeichert.','Verset gardé avec le cœur.'):message('Dein Vers. Zum Wiederlesen.','Ton verset. À relire.');
+  $('.save-status').textContent=saved?message('Vers gemerkt.','Verset enregistré.'):message('Dein Vers. Zum Wiederlesen.','Ton verset. À relire.');
   say(saved?message('Vers in dieser Vorschau gemerkt.','Verset gardé dans cet aperçu.'):message('Vers aus der Vorschau entfernt.','Verset retiré de cet aperçu.'));
  }
  $$('.save, .save-main').forEach(b=>b.addEventListener('click',()=>save(b)));
