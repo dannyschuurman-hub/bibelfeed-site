@@ -58,3 +58,6 @@ cite{font-size:13px}.image-caption{font-size:12px}.hearing-heading p:not(.eyebro
 @media(min-width:821px){.widget h2{font-size:clamp(40px,4.3vw,64px)}.widget h2 br{display:none}.widget h2 em{display:block}.widget h2 em br{display:block}}
 .v2-how ol{padding-left:64px}
 @media(max-width:820px){.v2-how ol{padding-left:62px}}
+
+/* Unslop-ronde 25-11: losse lila gloed achter de feed-telefoon weg (alleen een zachte contactschaduw blijft) */
+.feed-glow{display:none}
